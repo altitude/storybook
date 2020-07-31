@@ -235,8 +235,6 @@ If you have an existing webpack config for your project and want to reuse this a
 _replacing the loaders from storybook with the loaders from your app's `webpack.config.js`_
 
 ```js
-const path = require('path');
-
 // your app's webpack.config.js
 const custom = require('../webpack.config.js');
 
